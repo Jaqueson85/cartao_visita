@@ -14,17 +14,24 @@
         } 
 
         .card {
-            width: 400px;          /* largura fixa */
+            width: 700px;          /* largura fixa */
             margin: 200px auto;    /* centraliza na tela */
-            padding: 250px;         /* espaço interno */
+            padding: 50px;         /* espaço interno */
             background-color: rgb(86, 5, 5);
             border-radius: 20px;   /* cantos arredondados */padding-top: 50px;
         }
-
+        .text {
+             width: 700px;          /* largura fixa */
+            margin: 200px auto;    /* centraliza na tela */
+            padding: 50px;         /* espaço interno */
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;   /* cantos arredondados */padding-top: 50px;
+        }
+        
         .foto {
             position: relative;
-            top: -150px;
-            left: 50%;
+            top: -100px;
+            left: 35%;
             transform: translateX(-130%);
             width: 150px;          /* largura da foto */
             height: 150px;         /* altura da foto */
